@@ -1,0 +1,29 @@
+:root {
+  --neutral-colorswhite: #ffffff;
+  --neutral-colorsblack: #000000;
+  --neutral-colors400: #444444;
+  --general-shadows-shadow-01: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  --color-background-positive-hover: #4CAF50;
+  --color-background-danger-default: #FF5252;
+  --size-radius-200: 8px;
+  --size-space-200: 8px;
+  --text-single-400-regular-font-family: "Inter", sans-serif;
+  --text-single-400-regular-font-weight: 400;
+  --text-single-400-regular-font-size: 14px;
+  --text-single-400-regular-letter-spacing: 0px;
+  --text-single-400-regular-line-height: 21px;
+  --text-single-400-regular-font-style: normal;
+  --headings-h4-font-family: "Inter", sans-serif;
+  --headings-h4-font-weight: 600;
+  --headings-h4-font-size: 20px;
+  --headings-h4-letter-spacing: -0.2px;
+  --headings-h4-line-height: 30px;
+  --headings-h4-font-style: normal;
+  --body-base-font-family: "Inter", sans-serif;
+  --body-base-font-weight: 400;
+  --body-base-font-size: 14px;
+  --body-base-letter-spacing: 0px;
+  --body-base-line-height: 21px;
+  --body-base-font-style: normal;
+  --percentage: 75%; /* Puedes ajustar este valor dinámicamente */
+}

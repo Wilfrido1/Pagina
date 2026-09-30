@@ -1,0 +1,904 @@
+.estaciones {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.background {
+  position: absolute;
+  width: 100vw;
+  height: 200vh;
+  top: 0;
+  left: 0;
+  background: rgb(135, 206, 235); /* Sky blue in RGB */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.estaciones .discover {
+  position: absolute;
+  width: 239px;
+  height: 1280px;
+  top: 70px;
+  left: 0;
+  background-color: #ffffff80;
+  border-radius: 20px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(25px) brightness(100%);
+}
+
+.estaciones .div-wrapper {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  display: flex;
+  height: 40px;
+  align-items: center;
+  gap: 16px;
+  padding: 0 16px;
+  border-radius: 8px;
+}
+
+.estaciones .div {
+  position: relative;
+  width: 208px;
+  height: 24px;
+  margin-right: -31.00px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.estaciones .menu-item {
+  width: 209px;
+  top: 1221px;
+  background-color: #ffffff;
+  display: flex;
+  height: 40px;
+  align-items: center;
+  gap: 16px;
+  padding: 0 16px;
+  border-radius: 8px;
+}
+
+.estaciones .menu-item-3 {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  gap: 16px;
+  padding: 0 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  background-color: #ffffff80;
+  border-radius: 8px;
+  backdrop-filter: blur(25px) brightness(100%);
+  -webkit-backdrop-filter: blur(25px) brightness(100%);
+}
+
+.estaciones .img {
+  width: 24px;
+  height: 24px;
+}
+
+.estaciones .text-wrapper {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.estaciones .list {
+  display: flex;
+  flex-direction: column;
+  width: 209px;
+  height: 369px;
+  align-items: flex-start;
+  gap: 4px;
+  position: absolute;
+  top: 4px;
+  left: 15px;
+}
+
+.estaciones .div-wrapper {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  display: flex;
+  height: 40px;
+  align-items: center;
+  gap: 16px;
+  padding: 0 16px;
+  border-radius: 8px;
+}
+
+.estaciones .navigation {
+  position: absolute;
+  width: 2020px;
+  height: 66px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 2px 6px #0d0a2c14;
+}
+
+.estaciones .rectangle-wrapper {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: #f7f7f7;
+  border-radius: 1000px;
+  overflow: hidden;
+}
+
+.estaciones .rectangle {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.estaciones .buttons {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 12px;
+  position: absolute;
+  top: 12px;
+  left: 1900px;
+}
+
+.estaciones .button {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 0px 16px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #000000;
+  border-radius: 8px;
+}
+
+.estaciones .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  font-family: var(--small-text-font-family);
+  font-weight: var(--small-text-font-weight);
+  color: #ffffff;
+  font-size: var(--small-text-font-size);
+  letter-spacing: var(--small-text-letter-spacing);
+  line-height: var(--small-text-line-height);
+  white-space: nowrap;
+  font-style: var(--small-text-font-style);
+}
+
+.estaciones .text-wrapper-3 {
+  position: absolute;
+  height: 30px;
+  top: 17px;
+  left: 80px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: -0.20px;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.estaciones .bell {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 15px;
+  left: 1830px;
+}
+
+/*Bloque Estacion*/
+
+.estaciones .bloque-estacion {
+  position: absolute;
+  width: 1089px;
+  height: 300px;
+  top: 179px;
+  left: 281px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 20px;
+  box-shadow: 0px 2px 6px 0px rgba(13, 10, 44, 0.08);
+}
+
+.estaciones .info-estacion {
+  position: absolute;
+  width: 152px;
+  height: 44px;
+  top: 39px;
+  left: 59px;
+}
+
+.estaciones .overlap-group {
+  position: relative;
+  width: 148px;
+  height: 44px;
+}
+
+.estaciones .ubicacion {
+  position: absolute;
+  width: 106px;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: rgba(146, 145, 165, 1);
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  font-style: normal;
+}
+
+.estaciones .id-estacion {
+  position: absolute;
+  width: 148px;
+  top: 16px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: rgba(30, 27, 57, 1);
+  font-size: 22px;
+  letter-spacing: 0px;
+  line-height: 28px;
+  font-style: normal;
+}
+
+/*Bloque Sensor Anemometro*/
+
+.estaciones .sensor-anemometro {
+  top: 106px;
+  left: 50px;
+  position: absolute;
+  width: 300px;
+  height: 92px;
+}
+
+.estaciones .estetica-sensor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 5px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 20px;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.4);
+  min-width: 150px;
+  min-height: 100px;
+}
+
+.estaciones .valor-anemometro {
+  position: absolute;
+  width: 108px;
+  height: 60px;
+  top: 16px;
+  left: 151px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #fbbc05;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 60px;
+}
+
+.estaciones .info-anemometro {
+  position: absolute;
+  width: 108px;
+  height: 49px;
+  top: 23px;
+  left: 26px;
+}
+
+.estaciones .tipo-anemometro {
+  position: absolute;
+  width: 106px;
+  top: 29px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: rgba(146, 145, 165, 1);
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  font-style: normal;
+}
+
+.estaciones .nombre-anemometro {
+  position: absolute;
+  width: 107px;
+  top: 0;
+  left: 1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: rgba(30, 27, 57, 1);
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 36px;
+}
+
+/*Bloque Sensor Pluviometro*/
+
+.estaciones .sensor-pluviometro {
+  top: 106px;
+  left: 750px;
+  position: absolute;
+  width: 300px;
+  height: 92px;
+}
+
+.estaciones .valor-pluviometro {
+  position: absolute;
+  width: 108px;
+  height: 60px;
+  top: 16px;
+  left: 151px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: rgba(30, 27, 57, 1);
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 60px;
+  white-space: nowrap;
+}
+
+.estaciones .info-pluviometro {
+  position: absolute;
+  width: 108px;
+  height: 49px;
+  top: 23px;
+  left: 33px;
+}
+
+.estaciones .tipo-pluviometro {
+  position: absolute;
+  width: 106px;
+  top: 29px;
+  left: 2px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: rgba(146, 145, 165, 1);
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  font-style: normal;
+}
+
+.estaciones .nombre-pluviometro {
+  position: absolute;
+  width: 107px;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: rgba(30, 27, 57, 1);
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 36px;
+}
+
+/*Bloque Sensor Humedad*/
+
+.estaciones .sensor-humedad {
+  top: 106px;
+  left: 400px;
+  position: absolute;
+  width: 300px;
+  height: 92px;
+}
+
+.estaciones .valor-humedad {
+  position: absolute;
+  width: 108px;
+  height: 60px;
+  top: 16px;
+  left: 151px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #fbbc05;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 60px;
+  white-space: nowrap;
+}
+
+.estaciones .info-humedad {
+  position: absolute;
+  width: 107px;
+  height: 49px;
+  top: 23px;
+  left: 33px;
+}
+
+.estaciones .tipo-humedad {
+  position: absolute;
+  width: 106px;
+  top: 29px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: rgba(146, 145, 165, 1);
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  font-style: normal;
+}
+
+.estaciones .nombre-humedad {
+  position: absolute;
+  width: 107px;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: rgba(30, 27, 57, 1);
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 36px;
+}
+
+.estaciones .borrar-estacion {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 43px;
+  left: 1028px;
+}
+
+/*Botones de acción*/
+
+.estaciones .button-accion-estetica {
+  position: relative;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.estaciones .eliminar-estacion {
+  position: absolute;
+  width: 178px;
+  height: 40px;
+  top: 113px;
+  left: 1192px;
+}
+
+.estaciones .button-eliminar {
+  display: flex;
+  width: 178px;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  padding: 12px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(236, 34, 31, 1);
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid rgba(192, 15, 12, 1);
+
+}
+
+.estaciones .cuerpo-eliminar {
+  all: unset;
+  box-sizing: border-box;
+  position: relative;
+  width: fit-content;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: rgba(254, 233, 231, 1);
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 100%;
+  font-style: normal;
+}
+
+.estaciones .icono-eliminar {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 8px;
+  left: 7px;
+}
+
+.estaciones .agregar-estacion {
+  position: absolute;
+  width: 190px;
+  height: 40px;
+  top: 113px;
+  left: 986px;
+}
+
+.estaciones .button-agregar {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  width: 190px;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  padding: 12px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(44, 44, 44, 1);
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid rgba(44, 44, 44, 1);
+}
+
+.estaciones .cuerpo-agregar {
+  all: unset;
+  box-sizing: border-box;
+  position:relative;
+  width: fit-content;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: rgba(245, 245, 245, 1);
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 100%;
+  font-style: normal;
+}
+
+.estaciones .icono-agregar {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 8px;
+  left: 13px;
+}
+
+
+/*Combo Box*/
+.box-eliminar {
+  position: fixed;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.14);
+  display: none; /* Inicialmente oculto */
+  z-index: 100; /* Asegúrate de que esté sobre otros elementos */
+}
+
+.box-eliminar .model-eliminar {
+  position: fixed;
+  width: 431px;
+  height: 242px;
+  top: 0;
+  left: 0;
+  padding: 20px;
+}
+
+.box-eliminar .overlap-group {
+  position: relative;
+  width: 427px;
+  height: 242px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 2px 6px #00000014;
+}
+
+.box-eliminar .overlap {
+  position: absolute;
+  width: 148px;
+  height: 44px;
+  top: 28px;
+  left: 27px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.box-eliminar .text-wrapper {
+  position: absolute;
+  width: 106px;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #9290a4;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.box-eliminar .estacion {
+  position: absolute;
+  width: 148px;
+  top: 16px;
+  left: 0;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #1e1b39;
+  font-size: 22px;
+  line-height: 28px;
+    margin-bottom: 10px;
+  }
+
+.box-eliminar .botonoes {
+  display: flex;
+  width: 240px;
+  align-items: center;
+  gap: 16px;
+  position: absolute;
+  top: 183px;
+  left: 146px;
+  bottom: 20px;
+  right: 20px;
+}
+
+.box-eliminar .cancelar-boton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px;
+  flex: 1;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.box-eliminar .confirmar-boton {
+  flex: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px;
+  background-color: #2c2c2c;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #2c2c2c;
+}
+
+.box-eliminar .div{
+  width: fit-content;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #303030;
+  font-size: 16px;
+  line-height: 16px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.box-eliminar .text-wrapper-2 {
+  width: fit-content;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #f5f5f5;
+  font-size: 16px;
+  line-height: 16px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.box-eliminar .combo-box-group {
+  display: flex;
+  flex-direction: column;
+  width: 272px;
+  height: 48px;
+  align-items: flex-start;
+  gap: 8px;
+  position: absolute;
+  top: 92px;
+  left: 30px;
+  padding: 0 20px;
+}
+
+.box .encabezado {
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #1e1e1e;
+  font-size: 14px;
+  line-height: 22.4px;
+}
+
+.box-eliminar .select {
+  display: flex;
+  min-width: 240px;
+  height: 42px;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 12px 12px 16px;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #d9d9d9;
+  cursor: pointer;
+}
+
+.box-agregar {
+  position: fixed;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.14);
+  display: none; /* Inicialmente oculto */
+  z-index: 100; /* Asegúrate de que esté sobre otros elementos */
+}
+
+
+.box-agregar .model-agregar {
+  position: fixed;
+  width: 431px;
+  height: 242px;
+  top: 0;
+  left: 0;
+  padding: 20px;
+}
+
+.box-agregar .overlap-group {
+  position: relative;
+  width: 427px;
+  height: 242px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 2px 6px #00000014;
+}
+
+.box-agregar .overlap {
+  position: absolute;
+  width: 148px;
+  height: 44px;
+  top: 28px;
+  left: 27px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.box-agregar .text-wrapper {
+  position: absolute;
+  width: 106px;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #9290a4;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.box-agregar .estacion {
+  position: absolute;
+  width: 148px;
+  top: 16px;
+  left: 0;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #1e1b39;
+  font-size: 22px;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+
+.box-agregar .botonoes {
+  display: flex;
+  width: 240px;
+  align-items: center;
+  gap: 16px;
+  position: absolute;
+  top: 183px;
+  left: 146px;
+  bottom: 20px;
+  right: 20px;
+}
+
+.box-agregar .cancelar-agregar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px;
+  flex: 1;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.box-agregar .confirmar-agregar {
+  flex: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px;
+  background-color: #2c2c2c;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #2c2c2c;
+}
+
+.box-agregar .div{
+  width: fit-content;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #303030;
+  font-size: 16px;
+  line-height: 16px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.box-agregar .text-wrapper-2 {
+  width: fit-content;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #f5f5f5;
+  font-size: 16px;
+  line-height: 16px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.box-agregar .combo-box-group {
+  display: flex;
+  flex-direction: column;
+  width: 272px;
+  height: 48px;
+  align-items: flex-start;
+  gap: 8px;
+  position: absolute;
+  top: 92px;
+  left: 30px;
+  padding: 0 20px;
+}
+
+.box-agregar .encabezado {
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #1e1e1e;
+  font-size: 14px;
+  line-height: 22.4px;
+}
+
+.box-agregar .select {
+  display: flex;
+  min-width: 240px;
+  height: 42px;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 12px 12px 16px;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #d9d9d9;
+  cursor: pointer;
+}
